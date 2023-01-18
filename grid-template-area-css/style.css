@@ -1,0 +1,42 @@
+.container{
+    height: 700px;
+    width: 100%
+     border:1px solid black;
+     background-color:rgb(103, 90, 90); 
+    display:grid;
+   grid-template-columns:30px 100px 30px;
+   grid-template-rows:80px 600px;
+   grid-template-areas: 
+   "hd hd hd hd hd hd hd hd "
+   "sd sd  main main main main main main "
+   "ft ft ft ft  ft ft ft";
+  
+  }
+ 
+.box{
+    background-color: black;
+    border: 1px solid blue;
+    color: red;
+    text-align: center;
+    /* height: 100%; */
+  }
+
+  #header{
+    grid-area: hd;
+    
+  }
+
+  #sidebar{
+    grid-area: sd;
+    
+  }
+  #content{
+    grid-area: main;
+    
+  }
+  #footer{
+    grid-area: ft;
+    
+  }
+
+  

@@ -1,0 +1,22 @@
+.containe{
+    height: 100vh;
+    display: grid;
+    background-color: black;
+    border: 2px solid red;
+  /* height: 200px; */
+  /* grid-template: repeat(3, 1fr) / repeat(3, 1fr); */
+  /* gap: 20px 5px; */
+}
+
+/* .box{
+    height: 30px;
+    width: 20;
+    border: 1px solid yellow;
+    background-color: brown;
+    text-align: center;
+    color: blue; */
+    
+
+/* #box1{
+   grid-area: 1/1/3/4;
+} */
